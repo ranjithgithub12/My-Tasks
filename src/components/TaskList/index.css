@@ -1,0 +1,21 @@
+.list-of-task {
+  display: flex;
+  justify-content: space-between;
+  background-color: #323f4b;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.user-input {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.task-type {
+  background-color: #f3aa4e;
+  border-radius: 15px;
+  padding: 5px 20px 5px 20px;
+  display: flex;
+  align-items: center;
+}

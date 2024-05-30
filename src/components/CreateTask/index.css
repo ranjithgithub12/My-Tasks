@@ -1,0 +1,73 @@
+.app-contianer {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+}
+.create-task-container {
+  width: 35%;
+  background-color: #131213;
+  min-height: 100vh;
+  padding: 20px;
+}
+.tag-container {
+  width: 65%;
+  padding: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.create-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #f3aa4e;
+  text-align: center;
+}
+.label-content {
+  color: #f8f8f8;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.input-width {
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.add-button {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  padding: 10px 18px 10px 18px;
+  width: 100px;
+  cursor: pointer;
+}
+.tag-name {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+.unorder-list-of-tags {
+  padding: 00px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no-task-container{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-task{
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 25px;
+}

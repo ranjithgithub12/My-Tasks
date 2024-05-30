@@ -1,0 +1,15 @@
+.list-of-tag-list {
+  list-style-type: none;
+  margin: 10px;
+}
+.tag-button {
+  border: 1px solid #f3aa4e;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 8px 15px 8px 15px;
+}
+
+.tag-button-color{
+  background-color: #f3aa4e;
+}
